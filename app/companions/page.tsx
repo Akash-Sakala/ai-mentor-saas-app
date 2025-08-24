@@ -1,7 +1,7 @@
 import SearchInput from "@/components/SearchInput";
 import SubjectFilter from "@/components/SubjectFilter";
 import CompanionCard from "@/components/ui/CompanionCard";
-import { getAllCompanions } from "@/lib/actions/companion.action";
+import { getAllCompanions } from "@/lib/actions/companion.actions";
 import { getSubjectColor } from "@/lib/utils";
 
 const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
